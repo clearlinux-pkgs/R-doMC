@@ -4,7 +4,7 @@
 #
 Name     : R-doMC
 Version  : 1.3.5
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/doMC_1.3.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/doMC_1.3.5.tar.gz
 Summary  : Foreach Parallel Adaptor for 'parallel'
@@ -29,11 +29,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1521192953
+export SOURCE_DATE_EPOCH=1523302417
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1521192953
+export SOURCE_DATE_EPOCH=1523302417
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
