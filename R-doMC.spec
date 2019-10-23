@@ -4,19 +4,19 @@
 #
 Name     : R-doMC
 Version  : 1.3.6
-Release  : 22
+Release  : 23
 URL      : https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz
 Summary  : Foreach Parallel Adaptor for 'parallel'
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: R-RUnit
 Requires: R-foreach
 Requires: R-iterators
 BuildRequires : R-RUnit
 BuildRequires : R-foreach
 BuildRequires : R-iterators
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 the multicore functionality of the parallel package.
@@ -29,10 +29,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1564418273
+export SOURCE_DATE_EPOCH=1571818691
 
 %install
-export SOURCE_DATE_EPOCH=1564418273
+export SOURCE_DATE_EPOCH=1571818691
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
