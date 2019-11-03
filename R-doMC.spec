@@ -4,7 +4,7 @@
 #
 Name     : R-doMC
 Version  : 1.3.6
-Release  : 23
+Release  : 24
 URL      : https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz
 Summary  : Foreach Parallel Adaptor for 'parallel'
